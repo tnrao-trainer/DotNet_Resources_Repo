@@ -1,0 +1,145 @@
+Day-3
+~~~~~
+
+
+Recapping
+
+int?  x;
+int  y =   x ??  0; 
+
+if(x.HasValue == true)
+{
+	
+}
+-------------------------------------------------------
+var  x =  expression;			// 
+var  x =  value;			// 
+var  x = 10;
+x =  true;		// error 
+---------------------------------------------------
+
+int b = 10;
+long  a =  b;	
+int c = (int) a;	
+-------------------------------------------------------
+
+
+
+
+
+
+
+class   Person
+{
+	// members :   data +  methods	
+	private string Name;
+	private int  Age;
+	
+	public  void  Display()
+	{
+		Console.WriteLine(Name);
+		Console.WriteLine(Age);
+	}
+}
+------------------------------------------------
+Person   p1 = new Person();
+p1.Display();
+
+
+
+1.  Constructor			    ----      Initialize the object 	
+2.  Getter and Setters 	-----	  Read and write data to private variables 
+		--->   getAge() ,  setAge()  
+		--->   Properties 		---		get and set 
+
+
+
+Constructor
+~~~~~~~~~~
+
+
+	public  ClassName()
+	
+	public  Person(){ ...  }		//   1. Default constructor 
+	public  Person(int   age){ ...  }  //   2. Parametrized constructor 
+	public  Person(string  name){ ...  }
+	public  Person(string name,  int   age){ ...  }
+
+
+---------------------------------------------------------------------------------------------------
+
+
+	Person(string  name)	
+	Person(int  age)	
+	Person(string  city)		//  wrong
+	Person(string  name, string city)
+	Person(int   age, string name)
+	Person(string name, int  age)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Properties in C#
+~~~~~~~~~~~~~~~
+-->  Access to the private variables. 
+--> Property is a combination of  Getter  and Setter.
+
+	public   type    propertyName
+	{
+			get
+			{
+				return   _privateVariable;
+			}
+			
+			set 
+			{
+				_privateVariable =  value;
+			}			
+	}
+
+
+	
+
+
+
+
+
+
+An auto-implemented property in C# is a shorthand syntax that allows you to declare a property without manually creating a private backing field.
+
+
+ private int _id;
+ 
+ 
+  public int EmployeeId
+ {
+     get 
+     { 
+         return _id; 
+     }
+
+     set
+     { 
+         _id = value; 
+     }
+ }
+
+
+
+
