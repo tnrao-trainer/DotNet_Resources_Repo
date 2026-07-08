@@ -1,1 +1,92 @@
 
+Day-1
+~~~~~~
+
+ 
+ 
+ 
+ 
+ Developing   Console Application using C#
+ 
+ 
+ 
+ 
+ 1. Solution Explorer   (Project  Explorer)
+ 2.  Program.cs  
+			---  Main  Entry Program 	(Program Class -->   Main()  )
+			
+			
+
+
+C#  Program Structure
+~~~~~~~~~~~~~~~~~~~~
+
+1.    namespace ConsoleApp11
+
+			Program
+			Employee
+			Student 
+			.....
+
+
+			namespace  :   collection of types
+
+						value types
+								--  structures (int, bool, double, etc.....)
+								--  enumerations 
+								
+						reference types 
+								--  classes   (90%)
+								--  interfaces
+								--  delegates 
+
+
+2.   internal  class  Program
+
+		internal   ---   access modifier used to create types that can access within the project only. 
+		
+3.  static void Main
+
+	  --  Main  method should be delcared as static 
+
+4.   Console.WriteLine("Hello, World!");
+
+		--- This is output statement 
+		---  Conslole  is  class name 
+		---  WriteLine  is   method name 
+	  
+
+
+			
+
+
+Naming Conventions 
+
+
+-->  C#  follows  -- Pascal Casing 
+		
+			Every word start with Capital letter 
+			
+			Eg:		Program
+						WriteLine
+						Console 
+						Employee
+						EmployeeAddresss
+						EmployeeId
+								
+						
+						
+
+-->	JavaScript / Java/ TypeScript  ---  Camel Casing 
+
+ 
+			document
+			getElementById
+			console 
+			log
+			...
+			
+			
+			 
+
+ 
