@@ -1,0 +1,70 @@
+Assignment 1: Student Marks Analysis
+
+	Write a C# Console Application that  creates an integer array to store marks of 5 students.
+	Accepts marks from the user  and Displays all the marks. 
+	
+	Calculates:
+			Total Marks
+			Average Marks
+			Highest Mark
+			Lowest Mark
+			
+
+--------------------------------------------------------------------------------
+
+Assignment 2: Even and Odd Numbers
+
+Write a C# program that:
+
+Accepts 10 integer values into an array.
+	Displays all numbers.
+	Prints only the Even Numbers.
+	Prints only the Odd Numbers.
+	
+	Displays:
+	Count of Even Numbers
+	Count of Odd Numbers
+	Sum of Even Numbers
+	Sum of Odd Numbers
+----------------------------------------------------------
+
+
+Assignment 3: Product Price Analyzer  
+ 
+ An online store has 8 product prices.
+
+Write a C# program to:
+
+Store the prices in an array.
+Display all prices.
+
+Find:
+Highest Price
+Lowest Price
+Average Price
+Display products costing more than ₹500.
+Count how many products cost less than ₹200.
+
+
+-----------------------------------------------------------------------------------------------
+
+Assignment 4: Employee Salary Report  
+ 
+Problem Statement
+
+Create two arrays:
+
+Employee Names (string[])
+Employee Salaries (double[])
+
+Store details of 5 employees.
+
+Display:
+Employee Name		-	Salary
+
+Also calculate:
+
+Highest Salary
+Lowest Salary
+Average Salary
+Number of employees earning more than ₹50,000
