@@ -1,0 +1,65 @@
+Day-2
+~~~~~
+
+C# Programming 
+
+ 
+ 
+ string inputtext = "abc";
+
+// Declares 'result' inline and checks success safely
+if (int.TryParse(inputtext, out int result))
+{
+    Console.WriteLine($"Success! Number is: {result}");
+}
+else
+{
+    Console.WriteLine("Invalid input. Could not parse.");
+    // 'result' defaults to 0 automatically here
+}
+ 
+ 
+ --------------------------------------------------------------------------------------------------
+ 
+ 
+ Arrays
+ ~~~~~
+ 
+ 
+ -->  Collection of similar data items
+ -->  Index ---   0   to   n -1
+ 
+ 
+ 1.    int[]   ar;
+ 2.    int[]   ar =  new  int[10];
+ 3.    int[]   ar =   {  1, 2, 3, 4, 5};
+ 
+ ------------------------------
+ 
+ Length  property 		---    size of the array 
+ Rank      property 		---	dimension of the array 
+ 
+ 
+ 
+ 
+ Array.Sort(ar);
+ Array.Reverse(ar);
+ Array.Clear(ar);
+ Array.Clear(ar, 0, 4);
+ 
+ 
+ 
+ Method :			ar.GetLength()
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
